@@ -6,7 +6,7 @@ commands:
 jobs:
   base-images:
     docker:
-      - image: circleci/node:4.8.2-jessie
+      - image: circleci/node:latest
     steps:
       - test
 workflows:
